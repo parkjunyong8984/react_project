@@ -1,0 +1,77 @@
+.Ft-box{
+    width: 100%;
+    padding: 70px 0 40px;
+    background-color: #96b432;
+    .inner{
+        margin: 0 auto;
+        .Ft-Head{
+            padding-bottom: 34px;
+        }
+        div{
+            .Headfont{  
+                font-family: 'Noto Sans KR';
+                font-weight:100;
+                font-size: 40px;
+                line-height: 60px;
+                letter-spacing: -1.2px;
+                color: #fff;
+            }
+            div{
+                p{
+                    .font{
+                        color: #fff;
+                    }
+                    a{
+                        display: block;
+                        font-size: 16px;
+                        font-family: 'Noto Sans KR', sans-serif;
+                        font-weight: 300;
+                        color: #fff;            
+                    }
+                }
+            }
+            }
+            .Ft-call{
+                display: flex;
+                flex-direction: column;
+                .call-font{
+                    font-size: 38px;
+                    color: rgba(255, 255, 255, .9);
+                    text-align: right;
+                    margin: 20px 0;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 21px;
+                    font-family: "NotoSans_Light", sans-serif;
+                    color: rgba(255, 255, 255, .6);
+                    text-align: right;
+                    margin-bottom: 0;
+                }
+            }
+            .Ft-bottom{
+                border-top: 0.5px solid rgba(255, 255, 255, .15);
+                padding-top: 38px;
+                div{
+                    div{    
+                            a:nth-child(1){
+                                color: #fff;
+                                font-family: 'Noto Sans KR';
+                                font-weight: 400;
+                            }
+                            a{
+                                color:rgba(255, 255, 255, .5);
+                                margin-right: 24px;
+                                font-size: 16px;
+                                font-family: 'Noto Sans KR';
+                                font-weight: 100;
+                        }
+                    }
+                    p{
+                        color:rgba(255, 255, 255, .5);
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+}

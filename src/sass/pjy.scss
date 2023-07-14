@@ -1,0 +1,65 @@
+ul,li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.line::after{
+  content: "|";
+  
+}
+#Hd{
+  position: relative;
+  height: 800px;
+  .header {
+        .H-height {
+          height: 80px;
+        }
+    
+        .H-border {
+          border-bottom: 1px solid black;
+        }
+        a{
+          img{
+            width: 46px;
+            height: 46px;
+            margin-top: 23px;
+            margin-left: 18px;
+          }
+        }
+        ul,li{
+          padding: 0;
+          margin: 0;
+          li{
+            font-family: 'GowunBatang-Bold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Bold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-size: 32px;
+          }
+        }
+      }
+   .H-Event-h{
+    top: calc(100% - 156.39px);
+    left: calc(0% + 60px);
+    h2{
+      display: inline;
+      margin: 0;
+      a{color: #C80505}
+    }
+    ul{
+      margin: 0;
+      padding: 0;
+      padding-left: 17px;
+      li{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600; 
+        font-size: 24px;
+        padding-top: 8px;
+        padding-right: 20px;
+      }
+    }
+   }
+  }
