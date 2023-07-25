@@ -1,0 +1,64 @@
+{
+    "navi" : [
+        {
+            "title" : "이벤트",
+            "alink" : "#top"
+        },
+        {
+            "title" : "정기배송",
+            "alink" : "#section1"
+        },
+        {
+            "title" : "간식/음료",
+            "alink" : "#section2"
+        },
+        {
+            "title" : "맞춤식단",
+            "alink" : "#section3"
+        },
+        {
+            "title" : "리뷰/SNS",
+            "alink" : "#section4"
+        }
+    ],
+    "HdEvent" : [
+        {
+            "title" : "바디프로필",
+            "alink" : ""
+        },
+        {
+            "title" : "다이어트",
+            "alink" : ""
+        },
+        {
+            "title" : "그룹신청",
+            "alink" : ""
+        }
+    ],
+    "Hdlist" : [
+        {   
+            "menu" : ["Slim Menu","Slim Menu","Slim Menu"],
+            "cls" : ["","",""]
+        },
+        {   
+            "menu" : ["라이스","치킨 라이스","죽"],
+            "cls" : ["","Hd-Pading",""]
+        },
+        {   
+            "menu" : ["닭가슴살","안심","장조림"],
+            "cls" : ["","Hd-Pading",""]
+        },
+        {   
+            "menu" : ["샐러드","감자사라다","나물무침"],
+            "cls" : ["","Hd-Pading",""]
+        },
+        {   
+            "menu" : ["마테차","생과일주스","둥글레차"],
+            "cls" : ["","Hd-Pading",""]
+        },
+        {   
+            "menu" : ["계란","토마토","딸기"],
+            "cls" : ["","Hd-Pading",""]
+        }
+    ]
+}

@@ -24,11 +24,11 @@ const Ft = () => {
 						<div className={`d-flex ${Ftcss["Ft-call"]}`}>
 							<div className="">
 								<p className={`d-flex justify-content-end ${Ftcss["call-font"]}`}>1577.0001</p>
-								<p className="d-flex justify-content-end">백화점 대표전화</p><p>({Fttime.time}. {Fttime.date})</p>
+								<p className="d-flex justify-content-end">대표전화</p><p>({Fttime.time}. {Fttime.date})</p>
 							</div>
 							<div className="">
 								<p className={`d-flex justify-content-end ${Ftcss["call-font"]}`}>1899.8900</p>
-								<p className="d-flex justify-content-end">L.POINT 콜센터</p><p>({Fttime.time}. {Fttime.date})</p>
+								<p className="d-flex justify-content-end">콜센터</p><p>({Fttime.time}. {Fttime.date})</p>
 							</div>
 						</div>
 					</div>
@@ -39,12 +39,12 @@ const Ft = () => {
 								<a href="" title="새창" target="_blank"  className="">영상정보처리운영관리방침</a>
 								<a href="" title="새창" target="_blank"  className="">이용약관</a>
 							</div>
-							<p className="">롯데쇼핑(주) 주소 : 서울특별시 중구 소공동 1번지 (서울시 중구 남대문로 81)<span className="">대표이사 : 정준호</span></p>
-							<p className="">COPYRIGHT © LOTTESHOPPING.CO.,LTD. ALL RIGHTS RESERVED</p>
+							<p className="">옳은(주) 주소 : 서울 강남구 봉은사로37길 7-9 2F <span className="">대표이사 : 배00</span></p>
+							<p className="">Copyrightⓒ슬림쿡.All rights Reserved.</p>
 						</div>
 						<div className="">
 							<div className="">
-								<a href="" title="롯데 관계사 사이트 팝업 열기"><span>롯데 관계사 사이트</span></a>
+								<a href="" title="슬림쿡 홈페이지 열기"><img src="./W-logo.png" alt="" /></a>
 							</div>
 							<p className=""><img src="" alt=""/></p>
 						</div>

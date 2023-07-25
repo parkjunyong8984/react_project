@@ -11,7 +11,7 @@ a{
 }
 #Hd{
   position: relative;
-  height: 800px;
+  height: 1026px;
   .header {
         .H-height {
           height: 80px;
@@ -41,12 +41,16 @@ a{
         }
       }
    .H-Event-h{
-    top: calc(100% - 156.39px);
+    top: calc(100% - 230px);
     left: calc(0% + 60px);
     h2{
       display: inline;
       margin: 0;
-      a{color: #C80505}
+      a{color: #C80505;
+        font-size: 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600; }
     }
     ul{
       margin: 0;
@@ -59,6 +63,21 @@ a{
         font-size: 24px;
         padding-top: 8px;
         padding-right: 20px;
+      }
+    }
+    .H-list{
+      ul{
+        margin-top: 30px;
+        margin-left: 105px;
+        li{
+          font-size: 30px;
+          color: #000000;
+          font-family: 'S-CoreDream-5Medium';
+          padding-right: 5rem;
+        }
+        .Hd-Pading{
+          padding-right: 4rem;
+        }
       }
     }
    }

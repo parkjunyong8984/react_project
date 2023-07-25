@@ -1,6 +1,7 @@
 import React from 'react';
 import '../sass/pjy.scss';
 import  { db } from '../db/db'
+import Hdmenu from '../db/db.json'
 
 const ScrollspyHeader = () => {
   return (
@@ -13,7 +14,7 @@ const ScrollspyHeader = () => {
       </div>
       <div className="">
         <ul className="gnb d-flex pt-3">
-          {
+           {
             db.map((v, i) => {
             return (<li className="ps-5"><a href="">{v}</a></li>)
           })
@@ -21,7 +22,7 @@ const ScrollspyHeader = () => {
         </ul>
       </div>
     </div>
-    <div className="d-flex position-absolute H-Event-h">
+    <div className="position-absolute H-Event-h">
       <div className="d-flex align-items-center">
         <h2><a href="">EVENT</a></h2>
         <ul className='d-flex'>
@@ -30,7 +31,17 @@ const ScrollspyHeader = () => {
         <li className="">그룹신청</li>
         </ul>
       </div>
-      <div className=""></div>
+      <div className="H-list">
+        <ul className="d-flex">
+          {
+            Hdmenu.Hdlist.map((v, i) => {
+              return (
+                <li className={v.cls[0]} key={i}>{v.menu[0]}</li>
+              )
+            })
+          }
+        </ul>
+      </div>
     </div>
     </div>
   );
