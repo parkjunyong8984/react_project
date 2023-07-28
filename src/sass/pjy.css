@@ -13,7 +13,7 @@ a {
 
 #Hd {
   position: relative;
-  height: 800px;
+  height: 1026px;
 }
 #Hd .header .H-height {
   height: 80px;
@@ -39,7 +39,7 @@ a {
   font-size: 32px;
 }
 #Hd .H-Event-h {
-  top: calc(100% - 156.39px);
+  top: calc(100% - 230px);
   left: calc(0% + 60px);
 }
 #Hd .H-Event-h h2 {
@@ -48,6 +48,10 @@ a {
 }
 #Hd .H-Event-h h2 a {
   color: #C80505;
+  font-size: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
 }
 #Hd .H-Event-h ul {
   margin: 0;
@@ -61,4 +65,17 @@ a {
   font-size: 24px;
   padding-top: 8px;
   padding-right: 20px;
+}
+#Hd .H-Event-h .H-list ul {
+  margin-top: 30px;
+  margin-left: 105px;
+}
+#Hd .H-Event-h .H-list ul li {
+  font-size: 30px;
+  color: #000000;
+  font-family: "S-CoreDream-5Medium";
+  padding-right: 5rem;
+}
+#Hd .H-Event-h .H-list ul .Hd-Pading {
+  padding-right: 4rem;
 }/*# sourceMappingURL=pjy.css.map */

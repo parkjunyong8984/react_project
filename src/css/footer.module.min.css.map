@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"footer.module.min.css"}
+{"version":3,"sourceRoot":"","sources":["footer.module.scss"],"names":[],"mappings":"AAAA,QACI,WACA,oBACA,yBACA,eACI,cACA,wBACI,oBAGA,6BACI,2BACA,gBACA,eACA,iBACA,sBACA,WAII,+BACI,WAEJ,2BACI,cACA,eACA,sCACA,gBACA,WAKZ,wBACI,aACA,sBACA,mCACI,eACA,2BACA,iBACA,cAEJ,0BACI,eACA,iBACA,wCACA,2BACA,iBACA,gBAGR,0BACI,4CACA,iBAGY,iDACI,WACA,2BACA,gBAEJ,oCACI,2BACA,kBACA,eACA,2BACA,gBAGZ,gCACI,2BACA","file":"footer.module.min.css"}

@@ -1,6 +1,4 @@
-
-import './App.css';
-import Hd from './layout/Hd'
+import Hd from './layout/Hdtwo'
 import Se1 from './layout/Section1'
 import Ft from './layout/footer'
 
