@@ -54,9 +54,9 @@ const Header = () => {
                         data-aos-delay="400"
                         data-aos-duration="1500"
                         >
-                        <span class="">6</span>년 연속
+                        <span className="">6</span>년 연속
                         안티에이징 크림
-                        <span class="">1</span>위 <br />
+                        <span className="">1</span>위 <br />
                         자음생크림
                         </span>
                     <p
