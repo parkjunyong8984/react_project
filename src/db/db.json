@@ -1,26 +1,48 @@
 {
-    "navi" : [
-        {
-            "title" : "이벤트",
-            "alink" : "#top"
+    "navi" :{
+    
+        "Fttime" : {
+            "time" : "평일 09~18시",
+            "date" : "토/일요일 및 공휴일 휴무"
         },
-        {
-            "title" : "정기배송",
-            "alink" : "#section1"
-        },
-        {
-            "title" : "간식/음료",
-            "alink" : "#section2"
-        },
-        {
-            "title" : "맞춤식단",
-            "alink" : "#section3"
-        },
-        {
-            "title" : "리뷰/SNS",
-            "alink" : "#section4"
-        }
-    ],
+        "logosrc" : "./logo.png",
+        "gnb":[
+            {
+                "title" : "이벤트",
+                "alink" : "#top"
+            },
+            {
+                "title" : "정기배송",
+                "alink" : "#section1"
+            },
+            {
+                "title" : "간식/음료",
+                "alink" : "#section2"
+            },
+            {
+                "title" : "맞춤식단",
+                "alink" : "#section3"
+            },
+            {
+                "title" : "리뷰/SNS",
+                "alink" : "#section4"
+            }
+        ],
+        "utile":[
+            {
+                "title" : "매장찾기",
+                "alink" : "#top"
+            },
+            {
+                "title" : "구매하기",
+                "alink" : "#section1"
+            },
+            {
+                "title" : "검색",
+                "alink" : "#section2"
+            }
+        ]
+    },
     "HdEvent" : [
         {
             "title" : "바디프로필",
@@ -37,28 +59,25 @@
     ],
     "Hdlist" : [
         {   
-            "menu" : ["Slim Menu","Slim Menu","Slim Menu"],
-            "cls" : ["","",""]
+            "menu" : ["Slim Menu","Slim Menu","Slim Menu"]
+          
         },
         {   
-            "menu" : ["라이스","치킨 라이스","죽"],
-            "cls" : ["","Hd-Pading",""]
+            "menu" : ["라이스","치킨 라이스|Hd-Pading","죽"]
+            
         },
         {   
-            "menu" : ["닭가슴살","안심","장조림"],
-            "cls" : ["","Hd-Pading",""]
+            "menu" : ["닭가슴살","안심|Hd-Pading","장조림"]
+           
         },
         {   
-            "menu" : ["샐러드","감자사라다","나물무침"],
-            "cls" : ["","Hd-Pading",""]
+            "menu" : ["샐러드","감자사라다|Hd-Pading","나물무침"]
         },
         {   
-            "menu" : ["마테차","생과일주스","둥글레차"],
-            "cls" : ["","Hd-Pading",""]
+            "menu" : ["마테차","생과일주스|Hd-Pading","둥글레차"]
         },
         {   
-            "menu" : ["계란","토마토","딸기"],
-            "cls" : ["","Hd-Pading",""]
+            "menu" : ["계란","토마토|Hd-Pading","딸기"]
         }
     ]
 }

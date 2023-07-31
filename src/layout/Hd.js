@@ -1,21 +1,20 @@
 import React from 'react';
 import '../sass/pjy.scss';
-import  { db } from '../db/db'
-import Hdmenu from '../db/db.json'
 
-const ScrollspyHeader = () => {
+
+const ScrollspyHeader = (props) => {
   return (
     <div className='container' id='Hd'>
     <div className="header  container">
       <div className="w-100 H-height H-border">
-        <a href="">
-          <img src="./slim.svg" alt="" />
+        <a href="#top">
+        <img src={props.dbpath.navi.logosrc} alt="" />
         </a>
       </div>
       <div className="">
         <ul className="gnb d-flex pt-3">
            {
-            db.map((v, i) => {
+            props.dbpath.navi.gnb.map((v, i) => {
             return (<li className="ps-5"><a href="">{v}</a></li>)
           })
         }
