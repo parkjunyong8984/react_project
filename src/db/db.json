@@ -9,37 +9,37 @@
         "gnb":[
             {
                 "title" : "이벤트",
-                "alink" : "#top"
+                "alink" : "event"
             },
             {
                 "title" : "정기배송",
-                "alink" : "#section1"
+                "alink" : "delivery"
             },
             {
                 "title" : "간식/음료",
-                "alink" : "#section2"
+                "alink" : "snack"
             },
             {
                 "title" : "맞춤식단",
-                "alink" : "#section3"
+                "alink" : "fixedfood"
             },
             {
                 "title" : "리뷰/SNS",
-                "alink" : "#section4"
+                "alink" : "review"
             }
         ],
         "utile":[
             {
                 "title" : "매장찾기",
-                "alink" : "#top"
+                "alink" : "kakaomap"
             },
             {
                 "title" : "구매하기",
-                "alink" : "#section1"
+                "alink" : "mart"
             },
             {
                 "title" : "검색",
-                "alink" : "#section2"
+                "alink" : "search"
             }
         ]
     },

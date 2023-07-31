@@ -1,30 +1,51 @@
 
+import React, { useState } from 'react'
+import { Nav, Navbar, Container } from 'react-bootstrap';
+import Scrollspy from 'react-scrollspy';
 import Hdcss from '../css/header.module.scss'
 
 
-const Header = (props) => {      
+
+const Header = (props) => {   
+    const linknm =  props.dbpath.navi.gnb.map((v, i)=>{
+        return v.alink
+      }) 
+        
+    const [ topevent, setTopevent] = useState(true)
     return (       
-           
-            <header>
-                <div className={`d-flex justify-content-between ${Hdcss["container"]}`}>
-                    <button className='d-none'></button>
-                    <div className={Hdcss.top}>
+        <Navbar expand="lg" id={Hdcss.navHd} className="fixed-top py-0" as="header">
+         
+                 <Container className={`d-flex justify-content-between align-items-start ${Hdcss["container"]}`}>                              
+                  { topevent &&  <div className={Hdcss.top}>
                         <a href="">이벤트
                         </a>
-                    </div>
+                    </div> }
                     <div className={Hdcss.middle}>
-                        <a href="">
+                           <Navbar.Brand as="h1" className='col-12 text-center m-0 p-0'>
+                           <a href="#top" className={Hdcss.logo}>
                            <img src={props.dbpath.navi.logosrc} alt="" />
-                        </a>
-                        <ul className="d-flex">
+                           </a>
+                           </Navbar.Brand>
+                           <Navbar.Toggle aria-controls="navbar-nav" />
+                           <Navbar.Collapse id="navbar-nav" className="justify-content-center">
+                           <Nav>
+                                <Scrollspy
+                                items={linknm}
+                                currentClassName="active"
+                                offset={-100}
+                                componentTag="ul"
+                                className="gnb d-flex"
+                                >
                             {
                                 props.dbpath.navi.gnb.map((v,i)=>{
                                     return (
-                                        <li className="" key={i} ><a href={v.alink} className="d-block">{v.title}</a></li>
+                                        <li className={Hdcss.Menu} key={i} ><Nav.Link href={"#"+v.alink} className="d-block">{v.title}</Nav.Link></li>
                                     )
                                 })
                             }
-                        </ul>
+                               </Scrollspy>
+                           </Nav>
+                        </Navbar.Collapse>
                     </div>
                     <div className={Hdcss.bottom}>
                         <ul className='d-flex'>
@@ -44,8 +65,9 @@ const Header = (props) => {
                         }
                         </ul>
                     </div>
-                </div>
-            </header>
+                </Container>
+           
+        </Navbar>
            
       
     )
