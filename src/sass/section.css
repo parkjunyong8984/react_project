@@ -10,7 +10,7 @@ a {
 .gnb a {
   color: white;
 }
-.gnb .active .nav-link {
+.gnb .active a {
   color: chartreuse;
 }
 

@@ -39,7 +39,7 @@ const Header = (props) => {
                             {
                                 props.dbpath.navi.gnb.map((v,i)=>{
                                     return (
-                                        <li className={Hdcss.Menu} key={i} ><Nav.Link href={"#"+v.alink} className="d-block">{v.title}</Nav.Link></li>
+                                        <li className={Hdcss.Menu} key={i} ><a href={"#"+v.alink} className="d-block">{v.title}</a></li>
                                     )
                                 })
                             }

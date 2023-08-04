@@ -90,6 +90,18 @@ header:hover a {
 }
 
 @media (max-width: 767px) {
+  .middle ul {
+    flex-direction: column;
+    padding: 0%;
+  }
+  .middle ul li a {
+    padding: 0 !important;
+    font-size: 11px;
+    line-height: 35px;
+    margin-left: 16px;
+    color: #000000;
+    font-weight: bold;
+  }
   header:hover {
     background-color: rgba(255, 255, 255, 0);
     transition: 0.5s;

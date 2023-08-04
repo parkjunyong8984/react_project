@@ -1,0 +1,11 @@
+.inner{
+    padding: 150px 0 150px 0;
+}
+@media(max-width:768px){
+    .inner{
+        flex-direction: column-reverse;
+        >div{
+            width: 100%;
+        }
+    }
+}
