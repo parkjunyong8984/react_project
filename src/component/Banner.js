@@ -19,7 +19,7 @@ const Banner = () =>{
         data-aos-delay="300"
         data-aos-duration="1500"
         >
-        첨단 뷰티 인삼 과학의 힘
+        다이어트 정기배달 푸드
         </span>
         <br></br>
         <span
@@ -27,26 +27,26 @@ const Banner = () =>{
         data-aos-delay="400"
         data-aos-duration="1500"
         >
-        <span className="">6</span>년 연속
-        안티에이징 크림
+        <span className="">1</span>등 식단
+        다이어트 푸드
         <span className="">1</span>위 <br />
-        자음생크림
+        스시도시락
         </span>
     <p
         data-aos="fade-up"
         data-aos-delay="500"
         data-aos-duration="1500"
     >
-        1960년대 시작된 뷰티 인삼 연구로부터 진화를 거듭해온 <br />
-        설화수 자음생크림은 이제 인삼 크림의 아이콘이 되었습니다.
+        다년간의 음식 개발 연구로 높은 품질을 만들어가는 <br />
+        슬림쿡의 정기배달 메뉴는 이제 업계의 아이콘이 되었습니다.
     </p>
     <p
         data-aos="fade-up"
         data-aos-delay="600"
         data-aos-duration="1500"
     >
-        피부를 위한 첨단 인삼 과학의 산물, <br />
-        자음생크림으로 피부에 자생력을 충전하세요.
+        건강한 음식을 위한 저희의 노력, <br />
+        가장 먼저 드실 수 있게끔 하겠습니다.
     </p>
 
     <p
@@ -54,7 +54,7 @@ const Banner = () =>{
         data-aos-delay="700"
         data-aos-duration="1500"
     >
-        <sup>*</sup> 2017-2022 Beaute Research 한국 매출 기준
+        <sup>*</sup> 2023 08-16 SlimCook
     </p>
     </div>
     </div>

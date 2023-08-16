@@ -1,4 +1,3 @@
-
 header{
     color: #000000;
     ul,li{
@@ -90,6 +89,15 @@ header:hover a {
         }
     }
 }
+.hd.active{
+    transform: translateY(0);
+    
+  
+  }
+  .hd{
+    transform: translateY(-100%);
+    transition: 0.5s;
+  }
 @media(max-width: 767px){
     .middle{
         ul{

@@ -22,7 +22,7 @@ const Section1 = () => {
               <h2 className=""
               data-aos="fade-left"
               data-aos-delay="400"
-              data-aos-duration="1500">EBS MEDIA</h2> 
+              data-aos-duration="1500">Slim Cook</h2> 
             </div>
           </div>
         </div>
@@ -37,19 +37,19 @@ const Section1 = () => {
                                   data-aos="fade-up"
                                   data-aos-delay="300"
                                   data-aos-duration="1500">
-                EBS 미디어는 한국교육방송공사(EBS)의 자회사로, EBS 콘텐츠를 기반으로 <br/>
+                SilCook은 정기배달 식단부터 음료, 디저트, 전문가들의 맞춤식단까지 <br/>
                 <span className=""
                                     data-aos="fade-up"
                                     data-aos-delay="400"
-                                    data-aos-duration="1500">육아 교육</span> 부터 &emsp;<span className="">평생교육</span>&nbsp; 에 이르기까지 <b className="semi">국민 모두가 누릴 수 있는 <br/>
-                교육 서비스를 제공</b>해 오고 있습니다.
+                                    data-aos-duration="1500">고객님들이</span> 가장 &emsp;<span className="">중요하게</span>&nbsp; 생각하는 <b className="semi">건강한 식단,맛있는 식단<br/>
+                서비스를 제공</b>해 오고 있습니다.
               </p>
               <p className=""
                                   data-aos="fade-up"
                                   data-aos-delay="500"
                                   data-aos-duration="1500">
-                또한 EBS KIDS 채널 운영을 통해 국민 모두가 EBS 콘텐츠를 다양하게 <br/>
-                누릴 수 있도록 언제나 여러분 곁에 <b className="bold">평생의 동반자</b>가 되겠습니다.
+                또한 Slim Cook만의 제조과정을 통해 누구보다 빠르게 여러분들이 <br/>
+                음식을 드실 수 있도록 언제나 여러분 곁에 <b className="bold">건강 동반자</b>가 되겠습니다.
               </p>
             </div>
             <div className={`d-flex ${Section["logo"]}`}

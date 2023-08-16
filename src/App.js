@@ -4,8 +4,7 @@ import Contents from './component/Contents'
 
 
 import Ft from './layout/footer'
-
-
+import './sass/App.css'
 
 import db from './db/db.json'
 

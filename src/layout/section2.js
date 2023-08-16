@@ -23,7 +23,7 @@ const Section2 = () => {
         <section className="recommend">
             <div className={`d-flex ${Sec2["inner"]}`}>
                 <div className="title col-6 text-center" data-aos="fade-up">
-                    <h3>고객의 자산을 최우선으로<br/>생각하는 최고의 파트너의 추천</h3>
+                    <h3>고객의 건강을 최우선으로<br/>생각하는 최고의 파트너의 추천</h3>
                     <div className="col-6 d-flex justify-content-center mx-auto py-5">
                         <form action="process-form.php" method="POST">
                             <input type="text" id="name" name="name" className="col-12 my-3" required placeholder="* 회사명" />
